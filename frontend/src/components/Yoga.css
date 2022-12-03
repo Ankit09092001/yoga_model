@@ -30,3 +30,20 @@
 #my-canvas {
     transform: rotateY(180deg);
 }
+
+.performance-container {
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    left: 650px;
+}
+
+.pose-performance {
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+.pose-performance h4 {
+    color: rgba(0,0,0,0.7);
+}
