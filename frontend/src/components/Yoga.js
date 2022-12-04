@@ -218,6 +218,8 @@ function Yoga() {
             setCurrentTime(new Date(Date()).getTime()) 
             skeletonColor = 'rgb(0,255,0)'
           } else {
+            countAudio.pause()
+            countAudio.currentTime=0
             flag = false
             skeletonColor = 'rgb(255,255,255)'
            
